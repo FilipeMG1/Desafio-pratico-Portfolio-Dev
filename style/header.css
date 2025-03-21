@@ -1,0 +1,71 @@
+#intro {
+  overflow: hidden;
+  position: relative;
+
+  figcaption {
+    position: absolute;
+    top: 120px;
+    padding-inline: 163px;
+  }
+}
+
+#info {
+  margin-inline: 180px;
+
+  img {
+    margin-inline: 284px;
+    margin-bottom: 56px;
+  }
+
+  #title {
+    text-align: center;
+    font: var(--subtitle);
+    color: var(--gray-500);
+    margin-bottom: 8px;
+    margin-inline: auto;
+
+    span {
+    color: var(--red);
+    }
+  }
+
+  p {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+}
+
+#title-lg {
+  font: var(--title-lg);
+  color: var(--gray-600);
+  margin-bottom: 20px;
+  margin-inline: auto;
+}
+
+#tags {
+  margin-inline: 143px;
+  margin-bottom: 94px;
+}
+
+.tag {
+  border-radius: 50px;
+  background-color: var(--gray-300);
+  padding-inline: 16px;
+  padding-block: auto;
+  display: flex;
+  align-items: center;
+
+  span {
+    font: var(--text-md);
+    color: var(--gray-500);
+  }
+
+  img {
+    padding-block: 8px;
+  }
+}
+
+#vector {
+  margin-bottom: 57px;
+  margin-inline: auto;
+}
