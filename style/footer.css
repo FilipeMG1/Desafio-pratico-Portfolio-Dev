@@ -1,0 +1,53 @@
+#contact {
+  overflow: hidden;
+  position: relative;
+
+  figcaption {
+    position: absolute;
+    top: 120px;
+    padding-inline: 120px;
+  }
+
+  .header {
+    p {
+      margin-bottom: 8px;
+      font: var(--subtitle);
+      color: var(--purple);
+    }
+
+    h3 {
+      margin-bottom: 8px;
+      font: var(--title-md);
+      color: var(--gray-600);
+    }
+
+    span {
+      margin-bottom: 8px;
+      font: var(--text-md);
+      color: var(--gray-500);
+    }
+  }
+
+  div {
+    padding-inline: 20px;
+    padding-block: 20px;
+    background-color: var(--gray-300);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    border: solid 1.5px transparent;
+    box-sizing: border-box;
+
+    p {
+      flex: 10em;
+      margin-left: 12px;
+      font: var(--text-md);
+      color: var(--gray-500);
+    }
+  }
+
+  div:hover {
+    transition: all 0.4s ease-out;
+    border: solid 1.5px var(--blue);
+  }
+}

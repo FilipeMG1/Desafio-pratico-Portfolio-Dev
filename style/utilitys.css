@@ -27,22 +27,6 @@
   color: var(--red);
 }
 
-.color-pur { 
-  color: var(--purple);
-}
-
-.color-blu { 
-  color: var(--blue);
-}
-
-.color-gre { 
-  color: var(--green);
-}
-
-.color-yel { 
-  color: var(--yellow);
-}
-
 .subtitle {
   font: var(--subtitle);
 }
