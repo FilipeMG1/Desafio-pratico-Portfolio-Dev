@@ -6,12 +6,21 @@
   grid-auto-flow: column;
 }
 
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .gap-8 {
   gap: 8px;
 }
 
 .gap-16 {
   gap: 16px;
+}
+
+.gap-24 {
+  gap: 24px;
 }
 
 .color-red {
@@ -32,4 +41,13 @@
 
 .color-yel { 
   color: var(--yellow);
+}
+
+.subtitle {
+  font: var(--subtitle);
+}
+
+.title-md {
+  font: var(--title-md);
+  color: var(--gray-600);
 }
