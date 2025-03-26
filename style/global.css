@@ -44,3 +44,7 @@ body {
   font: var(--text-sm);
   color: var(--gray-400);
 }
+
+a {
+  text-decoration: none;
+}
