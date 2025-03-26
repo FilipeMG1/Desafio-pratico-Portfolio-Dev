@@ -33,6 +33,7 @@
 .container {
   max-width: 1366px;
   margin-inline: auto;
+  background-color: var(--gray-200);
 }
 
 img {
@@ -40,7 +41,7 @@ img {
 }
 
 body {
-  background-color: var(--gray-200);
+  background-color: black;
   font: var(--text-sm);
   color: var(--gray-400);
 }

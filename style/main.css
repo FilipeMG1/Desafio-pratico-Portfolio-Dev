@@ -3,10 +3,14 @@
     display: flex;
     margin-inline: auto;
   }
-  
-  .my-services {
+
+  #ada {
     padding-block: 72px 144px;
     padding-inline: 163px;
+  }
+  
+  .my-services {
+    padding-top: 72px;
 
     div {
       padding-inline: 12px;
